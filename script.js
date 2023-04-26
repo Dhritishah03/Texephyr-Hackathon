@@ -59,5 +59,12 @@ const activeElemOnScroll = function () {
     backTopBtn.classList.remove("active");
   }
 }
+const loadPageButton = document.getElementById('load-page-button');
+loadPageButton.addEventListener('click', loadPage);
+
+function loadPage() {
+  window.location.href = 'cart.html';
+}
+
 
 addEventOnElem(window, "scroll", activeElemOnScroll);

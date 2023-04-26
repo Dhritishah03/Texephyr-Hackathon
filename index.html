@@ -59,23 +59,23 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            <a class="navbar-link" data-nav-link>Home</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#shop" class="navbar-link" data-nav-link>Shop</a>
+            <a class="navbar-link" data-nav-link>Shop</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="navbar-link" data-nav-link>Collections</a>
+            <a class="navbar-link" data-nav-link>Collections</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="navbar-link" data-nav-link>Blogs</a>
+            <a class="navbar-link" data-nav-link>Blogs</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="navbar-link" data-nav-link>Contact</a>
+            <a class="navbar-link" data-nav-link>Contact</a>
           </li>
 
         </ul>
@@ -93,7 +93,7 @@
           <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
         </button>
 
-        <button class="action-btn" aria-label="cart">
+        <button class="action-btn" aria-label="cart" id="load-page-button">
           <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
 
           <span class="btn-badge">0</span>
@@ -120,7 +120,7 @@
         <div class="container">
 
           <h1 class="h1 hero-title">
-            <span class="span">High Quality</span> Pet Food
+            <span class="span">High Quality</span> Pet Product
           </h1>
 
           <p class="hero-text">Sale up to 40% off today</p>
@@ -316,7 +316,7 @@
                   <img src="./assets/images/product-1_0.jpg" width="360" height="360" loading="lazy"
                     alt="Commodo leo sed porta" class="img-cover hover">
 
-                  <button class="add-to-cart" aria-label="add to card" title="Add To Card" href="./cart.html">
+                  <button class="add-to-cart" aria-label="add to card" title="Add To Card" data-id="1">
                     <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
                   </button>
                 </div>
@@ -1013,8 +1013,8 @@
   <!-- 
     - custom js link
   -->
-  <script src="./assets/js/script.js" defer></script>
-  <script src="./assets/js/cart.js" defer></script>
+  <script src="./script.js" defer></script>
+  <script src="./cart.js" defer></script>
 
   <!-- 
     - ionicon link
