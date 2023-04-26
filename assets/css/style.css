@@ -452,7 +452,7 @@
   \*-----------------------------------*/
   
   .product .img-cover.hover,
-  .product-card .card-action-btn { display: none; }
+  .product-card .add-to-cart { display: none; }
   
   .product-card { text-align: center; }
   
@@ -763,7 +763,7 @@
   
     .product-card .card-banner { position: relative; }
   
-    .product-card .card-action-btn,
+    .product-card .add-to-cart,
     .product-card .card-banner .hover {
       display: block;
       position: absolute;
@@ -780,7 +780,7 @@
     .product-card .default,
     .product-card:is(:hover, :focus-within) .hover { opacity: 1; }
   
-    .product-card .card-action-btn {
+    .product-card .add-to-cart {
       top: 15px;
       right: 15px;
       color: var(--eerie-black);
@@ -793,13 +793,13 @@
       opacity: 0;
     }
   
-    .product-card .card-action-btn:is(:hover, :focus) {
+    .product-card .add-to-cart:is(:hover, :focus) {
       background-color: var(--portland-orange);
       border-color: var(--portland-orange);
       color: var(--white);
     }
   
-    .product-card:is(:hover, :focus-within) .card-action-btn { opacity: 1; }
+    .product-card:is(:hover, :focus-within) .add-to-cart { opacity: 1; }
   
   
   
